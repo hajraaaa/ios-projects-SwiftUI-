@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3134DFC72CC91312003E9D99 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DFC62CC91312003E9D99 /* CategoryItem.swift */; };
+		315D7C892CCB5D6F00FD50E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D7C882CCB5D6F00FD50E6 /* NetworkManager.swift */; };
+		315E92A72CD23ED8008C7A07 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 315E92A62CD23ED8008C7A07 /* Kingfisher */; };
+		3193890D2CCA3A590050420B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BC78662CC8B616003EEBD1 /* Assets.xcassets */; };
+		3193890E2CCA4C5B0050420B /* Satoshi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C3FD2CCA2C2A00DD8F53 /* Satoshi-Regular.ttf */; };
+		3193890F2CCA4C770050420B /* Satoshi-VariableItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C4032CCA2C2A00DD8F53 /* Satoshi-VariableItalic.ttf */; };
+		319389112CCA4C9B0050420B /* Satoshi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C4242CCA2C2A00DD8F53 /* Satoshi-BoldItalic.ttf */; };
+		319389122CCA4CDB0050420B /* Satoshi-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C3F72CCA2C2A00DD8F53 /* Satoshi-Variable.ttf */; };
+		319389152CCA50C50050420B /* Font+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319389142CCA50C50050420B /* Font+Custom.swift */; };
+		3199C3E42CC9F76C00DD8F53 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199C3E32CC9F76C00DD8F53 /* RecipeCard.swift */; };
+		3199C3E92CCA0FC300DD8F53 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199C3E82CCA0FC300DD8F53 /* Recipe.swift */; };
+		3199C3EB2CCA0FD200DD8F53 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199C3EA2CCA0FD200DD8F53 /* Category.swift */; };
+		3199C3ED2CCA117100DD8F53 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199C3EC2CCA117100DD8F53 /* CategoryViewModel.swift */; };
+		3199C3EF2CCA120600DD8F53 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199C3EE2CCA120600DD8F53 /* RecipeViewModel.swift */; };
+		3199C47C2CCA2DFC00DD8F53 /* Satoshi-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C4192CCA2C2A00DD8F53 /* Satoshi-Medium.ttf */; };
+		31BC78632CC8B614003EEBD1 /* RecipeDiscoverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC78622CC8B614003EEBD1 /* RecipeDiscoverAppApp.swift */; };
+		31BC78652CC8B614003EEBD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC78642CC8B614003EEBD1 /* ContentView.swift */; };
+		31BC78712CC8B667003EEBD1 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC78702CC8B667003EEBD1 /* CustomNavBar.swift */; };
+		31F5AADF2CCF5FCB0023A836 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5AADE2CCF5FCB0023A836 /* LaunchScreenView.swift */; };
+		31F5AAE22CCF74A90023A836 /* Satoshi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C4122CCA2C2A00DD8F53 /* Satoshi-Bold.ttf */; };
+		31F5AAE32CCF754B0023A836 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3199C42E2CCA2C2A00DD8F53 /* Satoshi-Bold.otf */; };
+		A10965C7664F5590ED5B1E15 /* Pods_RecipeDiscoverApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D15CC0FEFCCDFFBC0400EC /* Pods_RecipeDiscoverApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BF6CC8EB16243C3A6B2415E /* Pods-RecipeDiscoverApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeDiscoverApp.debug.xcconfig"; path = "Target Support Files/Pods-RecipeDiscoverApp/Pods-RecipeDiscoverApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3134DFC62CC91312003E9D99 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		315D7C882CCB5D6F00FD50E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		319389142CCA50C50050420B /* Font+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Custom.swift"; sourceTree = "<group>"; };
+		3199C3E32CC9F76C00DD8F53 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		3199C3E82CCA0FC300DD8F53 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		3199C3EA2CCA0FD200DD8F53 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3199C3EC2CCA117100DD8F53 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		3199C3EE2CCA120600DD8F53 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		3199C3F32CCA2C2A00DD8F53 /* FFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FFL.txt; sourceTree = "<group>"; };
+		3199C3F62CCA2C2A00DD8F53 /* Satoshi-VariableItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.ttf"; sourceTree = "<group>"; };
+		3199C3F72CCA2C2A00DD8F53 /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.ttf"; sourceTree = "<group>"; };
+		3199C3FA2CCA2C2A00DD8F53 /* satoshi.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = satoshi.css; sourceTree = "<group>"; };
+		3199C3FB2CCA2C2A00DD8F53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3199C3FD2CCA2C2A00DD8F53 /* Satoshi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.ttf"; sourceTree = "<group>"; };
+		3199C3FE2CCA2C2A00DD8F53 /* Satoshi-Italic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.eot"; sourceTree = "<group>"; };
+		3199C3FF2CCA2C2A00DD8F53 /* Satoshi-VariableItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.woff"; sourceTree = "<group>"; };
+		3199C4002CCA2C2A00DD8F53 /* Satoshi-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.woff"; sourceTree = "<group>"; };
+		3199C4012CCA2C2A00DD8F53 /* Satoshi-BlackItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.woff2"; sourceTree = "<group>"; };
+		3199C4022CCA2C2A00DD8F53 /* Satoshi-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.woff2"; sourceTree = "<group>"; };
+		3199C4032CCA2C2A00DD8F53 /* Satoshi-VariableItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.ttf"; sourceTree = "<group>"; };
+		3199C4042CCA2C2A00DD8F53 /* Satoshi-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.woff2"; sourceTree = "<group>"; };
+		3199C4052CCA2C2A00DD8F53 /* Satoshi-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.eot"; sourceTree = "<group>"; };
+		3199C4062CCA2C2A00DD8F53 /* Satoshi-BlackItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.woff"; sourceTree = "<group>"; };
+		3199C4072CCA2C2A00DD8F53 /* Satoshi-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.ttf"; sourceTree = "<group>"; };
+		3199C4082CCA2C2A00DD8F53 /* Satoshi-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.woff2"; sourceTree = "<group>"; };
+		3199C4092CCA2C2A00DD8F53 /* Satoshi-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.eot"; sourceTree = "<group>"; };
+		3199C40A2CCA2C2A00DD8F53 /* Satoshi-MediumItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.woff2"; sourceTree = "<group>"; };
+		3199C40B2CCA2C2A00DD8F53 /* Satoshi-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.woff"; sourceTree = "<group>"; };
+		3199C40C2CCA2C2A00DD8F53 /* Satoshi-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.ttf"; sourceTree = "<group>"; };
+		3199C40D2CCA2C2A00DD8F53 /* Satoshi-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.woff2"; sourceTree = "<group>"; };
+		3199C40E2CCA2C2A00DD8F53 /* Satoshi-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.woff"; sourceTree = "<group>"; };
+		3199C40F2CCA2C2A00DD8F53 /* Satoshi-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.woff"; sourceTree = "<group>"; };
+		3199C4102CCA2C2A00DD8F53 /* Satoshi-VariableItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.woff2"; sourceTree = "<group>"; };
+		3199C4112CCA2C2A00DD8F53 /* Satoshi-VariableItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.eot"; sourceTree = "<group>"; };
+		3199C4122CCA2C2A00DD8F53 /* Satoshi-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.ttf"; sourceTree = "<group>"; };
+		3199C4132CCA2C2A00DD8F53 /* Satoshi-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.eot"; sourceTree = "<group>"; };
+		3199C4142CCA2C2A00DD8F53 /* Satoshi-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.eot"; sourceTree = "<group>"; };
+		3199C4152CCA2C2A00DD8F53 /* Satoshi-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.woff"; sourceTree = "<group>"; };
+		3199C4162CCA2C2A00DD8F53 /* Satoshi-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.woff2"; sourceTree = "<group>"; };
+		3199C4172CCA2C2A00DD8F53 /* Satoshi-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3199C4182CCA2C2A00DD8F53 /* Satoshi-Variable.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.woff"; sourceTree = "<group>"; };
+		3199C4192CCA2C2A00DD8F53 /* Satoshi-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.ttf"; sourceTree = "<group>"; };
+		3199C41A2CCA2C2A00DD8F53 /* Satoshi-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.eot"; sourceTree = "<group>"; };
+		3199C41B2CCA2C2A00DD8F53 /* Satoshi-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.woff"; sourceTree = "<group>"; };
+		3199C41C2CCA2C2A00DD8F53 /* Satoshi-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.eot"; sourceTree = "<group>"; };
+		3199C41D2CCA2C2A00DD8F53 /* Satoshi-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.woff2"; sourceTree = "<group>"; };
+		3199C41E2CCA2C2A00DD8F53 /* Satoshi-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.woff"; sourceTree = "<group>"; };
+		3199C41F2CCA2C2A00DD8F53 /* Satoshi-Variable.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.eot"; sourceTree = "<group>"; };
+		3199C4202CCA2C2A00DD8F53 /* Satoshi-LightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.woff2"; sourceTree = "<group>"; };
+		3199C4212CCA2C2A00DD8F53 /* Satoshi-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.woff"; sourceTree = "<group>"; };
+		3199C4222CCA2C2A00DD8F53 /* Satoshi-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3199C4232CCA2C2A00DD8F53 /* Satoshi-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.eot"; sourceTree = "<group>"; };
+		3199C4242CCA2C2A00DD8F53 /* Satoshi-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3199C4252CCA2C2A00DD8F53 /* Satoshi-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.eot"; sourceTree = "<group>"; };
+		3199C4262CCA2C2A00DD8F53 /* Satoshi-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.woff"; sourceTree = "<group>"; };
+		3199C4272CCA2C2A00DD8F53 /* Satoshi-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.ttf"; sourceTree = "<group>"; };
+		3199C4282CCA2C2A00DD8F53 /* Satoshi-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.ttf"; sourceTree = "<group>"; };
+		3199C4292CCA2C2A00DD8F53 /* Satoshi-Variable.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.woff2"; sourceTree = "<group>"; };
+		3199C42A2CCA2C2A00DD8F53 /* Satoshi-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.woff2"; sourceTree = "<group>"; };
+		3199C42B2CCA2C2A00DD8F53 /* Satoshi-BlackItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.eot"; sourceTree = "<group>"; };
+		3199C42C2CCA2C2A00DD8F53 /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.ttf"; sourceTree = "<group>"; };
+		3199C42E2CCA2C2A00DD8F53 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		3199C42F2CCA2C2A00DD8F53 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		3199C4302CCA2C2A00DD8F53 /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		3199C4312CCA2C2A00DD8F53 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		3199C4322CCA2C2A00DD8F53 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		3199C4332CCA2C2A00DD8F53 /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		3199C4342CCA2C2A00DD8F53 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		3199C4352CCA2C2A00DD8F53 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		3199C4362CCA2C2A00DD8F53 /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		3199C4372CCA2C2A00DD8F53 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		31BC785F2CC8B614003EEBD1 /* RecipeDiscoverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeDiscoverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BC78622CC8B614003EEBD1 /* RecipeDiscoverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDiscoverAppApp.swift; sourceTree = "<group>"; };
+		31BC78642CC8B614003EEBD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31BC78662CC8B616003EEBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BC78692CC8B616003EEBD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31BC78702CC8B667003EEBD1 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		31BC790C2CC8BC47003EEBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		31F5AADE2CCF5FCB0023A836 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		32D15CC0FEFCCDFFBC0400EC /* Pods_RecipeDiscoverApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeDiscoverApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA2CF64C1618ABB9EB8145A /* Pods-RecipeDiscoverApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeDiscoverApp.release.xcconfig"; path = "Target Support Files/Pods-RecipeDiscoverApp/Pods-RecipeDiscoverApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BC785C2CC8B614003EEBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315E92A72CD23ED8008C7A07 /* Kingfisher in Frameworks */,
+				A10965C7664F5590ED5B1E15 /* Pods_RecipeDiscoverApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3134DFC52CC912E7003E9D99 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3E32CC9F76C00DD8F53 /* RecipeCard.swift */,
+				3134DFC62CC91312003E9D99 /* CategoryItem.swift */,
+				31BC78702CC8B667003EEBD1 /* CustomNavBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		315D7C872CCB5D5100FD50E6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				315D7C882CCB5D6F00FD50E6 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		319389132CCA4EFE0050420B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				319389142CCA50C50050420B /* Font+Custom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3199C3E52CCA0F6900DD8F53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3E82CCA0FC300DD8F53 /* Recipe.swift */,
+				3199C3EA2CCA0FD200DD8F53 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3199C3E62CCA0F7B00DD8F53 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3EC2CCA117100DD8F53 /* CategoryViewModel.swift */,
+				3199C3EE2CCA120600DD8F53 /* RecipeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3199C3E72CCA0F8800DD8F53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31F5AAE12CCF72B10023A836 /* Main View */,
+				3134DFC52CC912E7003E9D99 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3199C3F02CCA2C0C00DD8F53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3F12CCA2C2A00DD8F53 /* Satoshi_Complete */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3199C3F12CCA2C2A00DD8F53 /* Satoshi_Complete */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3F22CCA2C2A00DD8F53 /* License */,
+				3199C3F42CCA2C2A00DD8F53 /* Fonts */,
+			);
+			path = Satoshi_Complete;
+			sourceTree = "<group>";
+		};
+		3199C3F22CCA2C2A00DD8F53 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3F32CCA2C2A00DD8F53 /* FFL.txt */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
+		3199C3F42CCA2C2A00DD8F53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3F52CCA2C2A00DD8F53 /* Variable */,
+				3199C3F82CCA2C2A00DD8F53 /* WEB */,
+				3199C42D2CCA2C2A00DD8F53 /* OTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3199C3F52CCA2C2A00DD8F53 /* Variable */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3F62CCA2C2A00DD8F53 /* Satoshi-VariableItalic.ttf */,
+				3199C3F72CCA2C2A00DD8F53 /* Satoshi-Variable.ttf */,
+			);
+			path = Variable;
+			sourceTree = "<group>";
+		};
+		3199C3F82CCA2C2A00DD8F53 /* WEB */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3F92CCA2C2A00DD8F53 /* css */,
+				3199C3FB2CCA2C2A00DD8F53 /* README.md */,
+				3199C3FC2CCA2C2A00DD8F53 /* fonts */,
+			);
+			path = WEB;
+			sourceTree = "<group>";
+		};
+		3199C3F92CCA2C2A00DD8F53 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3FA2CCA2C2A00DD8F53 /* satoshi.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		3199C3FC2CCA2C2A00DD8F53 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3199C3FD2CCA2C2A00DD8F53 /* Satoshi-Regular.ttf */,
+				3199C3FE2CCA2C2A00DD8F53 /* Satoshi-Italic.eot */,
+				3199C3FF2CCA2C2A00DD8F53 /* Satoshi-VariableItalic.woff */,
+				3199C4002CCA2C2A00DD8F53 /* Satoshi-Black.woff */,
+				3199C4012CCA2C2A00DD8F53 /* Satoshi-BlackItalic.woff2 */,
+				3199C4022CCA2C2A00DD8F53 /* Satoshi-BoldItalic.woff2 */,
+				3199C4032CCA2C2A00DD8F53 /* Satoshi-VariableItalic.ttf */,
+				3199C4042CCA2C2A00DD8F53 /* Satoshi-Italic.woff2 */,
+				3199C4052CCA2C2A00DD8F53 /* Satoshi-Bold.eot */,
+				3199C4062CCA2C2A00DD8F53 /* Satoshi-BlackItalic.woff */,
+				3199C4072CCA2C2A00DD8F53 /* Satoshi-Black.ttf */,
+				3199C4082CCA2C2A00DD8F53 /* Satoshi-Light.woff2 */,
+				3199C4092CCA2C2A00DD8F53 /* Satoshi-Regular.eot */,
+				3199C40A2CCA2C2A00DD8F53 /* Satoshi-MediumItalic.woff2 */,
+				3199C40B2CCA2C2A00DD8F53 /* Satoshi-MediumItalic.woff */,
+				3199C40C2CCA2C2A00DD8F53 /* Satoshi-Italic.ttf */,
+				3199C40D2CCA2C2A00DD8F53 /* Satoshi-Black.woff2 */,
+				3199C40E2CCA2C2A00DD8F53 /* Satoshi-Italic.woff */,
+				3199C40F2CCA2C2A00DD8F53 /* Satoshi-Bold.woff */,
+				3199C4102CCA2C2A00DD8F53 /* Satoshi-VariableItalic.woff2 */,
+				3199C4112CCA2C2A00DD8F53 /* Satoshi-VariableItalic.eot */,
+				3199C4122CCA2C2A00DD8F53 /* Satoshi-Bold.ttf */,
+				3199C4132CCA2C2A00DD8F53 /* Satoshi-Black.eot */,
+				3199C4142CCA2C2A00DD8F53 /* Satoshi-BoldItalic.eot */,
+				3199C4152CCA2C2A00DD8F53 /* Satoshi-Regular.woff */,
+				3199C4162CCA2C2A00DD8F53 /* Satoshi-Regular.woff2 */,
+				3199C4172CCA2C2A00DD8F53 /* Satoshi-MediumItalic.ttf */,
+				3199C4182CCA2C2A00DD8F53 /* Satoshi-Variable.woff */,
+				3199C4192CCA2C2A00DD8F53 /* Satoshi-Medium.ttf */,
+				3199C41A2CCA2C2A00DD8F53 /* Satoshi-LightItalic.eot */,
+				3199C41B2CCA2C2A00DD8F53 /* Satoshi-Medium.woff */,
+				3199C41C2CCA2C2A00DD8F53 /* Satoshi-Light.eot */,
+				3199C41D2CCA2C2A00DD8F53 /* Satoshi-Medium.woff2 */,
+				3199C41E2CCA2C2A00DD8F53 /* Satoshi-LightItalic.woff */,
+				3199C41F2CCA2C2A00DD8F53 /* Satoshi-Variable.eot */,
+				3199C4202CCA2C2A00DD8F53 /* Satoshi-LightItalic.woff2 */,
+				3199C4212CCA2C2A00DD8F53 /* Satoshi-Light.woff */,
+				3199C4222CCA2C2A00DD8F53 /* Satoshi-BlackItalic.ttf */,
+				3199C4232CCA2C2A00DD8F53 /* Satoshi-Medium.eot */,
+				3199C4242CCA2C2A00DD8F53 /* Satoshi-BoldItalic.ttf */,
+				3199C4252CCA2C2A00DD8F53 /* Satoshi-MediumItalic.eot */,
+				3199C4262CCA2C2A00DD8F53 /* Satoshi-BoldItalic.woff */,
+				3199C4272CCA2C2A00DD8F53 /* Satoshi-Light.ttf */,
+				3199C4282CCA2C2A00DD8F53 /* Satoshi-LightItalic.ttf */,
+				3199C4292CCA2C2A00DD8F53 /* Satoshi-Variable.woff2 */,
+				3199C42A2CCA2C2A00DD8F53 /* Satoshi-Bold.woff2 */,
+				3199C42B2CCA2C2A00DD8F53 /* Satoshi-BlackItalic.eot */,
+				3199C42C2CCA2C2A00DD8F53 /* Satoshi-Variable.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		3199C42D2CCA2C2A00DD8F53 /* OTF */ = {
+			isa = PBXGroup;
+			children = (
+				3199C42E2CCA2C2A00DD8F53 /* Satoshi-Bold.otf */,
+				3199C42F2CCA2C2A00DD8F53 /* Satoshi-Italic.otf */,
+				3199C4302CCA2C2A00DD8F53 /* Satoshi-Black.otf */,
+				3199C4312CCA2C2A00DD8F53 /* Satoshi-Regular.otf */,
+				3199C4322CCA2C2A00DD8F53 /* Satoshi-BoldItalic.otf */,
+				3199C4332CCA2C2A00DD8F53 /* Satoshi-Light.otf */,
+				3199C4342CCA2C2A00DD8F53 /* Satoshi-LightItalic.otf */,
+				3199C4352CCA2C2A00DD8F53 /* Satoshi-BlackItalic.otf */,
+				3199C4362CCA2C2A00DD8F53 /* Satoshi-MediumItalic.otf */,
+				3199C4372CCA2C2A00DD8F53 /* Satoshi-Medium.otf */,
+			);
+			path = OTF;
+			sourceTree = "<group>";
+		};
+		31BC78562CC8B614003EEBD1 = {
+			isa = PBXGroup;
+			children = (
+				31BC78612CC8B614003EEBD1 /* RecipeDiscoverApp */,
+				31BC78602CC8B614003EEBD1 /* Products */,
+				818D9DB9AF06BAAE01452376 /* Pods */,
+				A675539111BCE70F41AF6464 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		31BC78602CC8B614003EEBD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BC785F2CC8B614003EEBD1 /* RecipeDiscoverApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BC78612CC8B614003EEBD1 /* RecipeDiscoverApp */ = {
+			isa = PBXGroup;
+			children = (
+				31F5AAE02CCF72720023A836 /* Launch Screen */,
+				315D7C872CCB5D5100FD50E6 /* NetworkManager */,
+				319389132CCA4EFE0050420B /* Extensions */,
+				3199C3F02CCA2C0C00DD8F53 /* Fonts */,
+				3199C3E72CCA0F8800DD8F53 /* Views */,
+				3199C3E62CCA0F7B00DD8F53 /* ViewModels */,
+				3199C3E52CCA0F6900DD8F53 /* Models */,
+				31BC790C2CC8BC47003EEBD1 /* Info.plist */,
+				31BC78622CC8B614003EEBD1 /* RecipeDiscoverAppApp.swift */,
+				31BC78662CC8B616003EEBD1 /* Assets.xcassets */,
+				31BC78682CC8B616003EEBD1 /* Preview Content */,
+			);
+			path = RecipeDiscoverApp;
+			sourceTree = "<group>";
+		};
+		31BC78682CC8B616003EEBD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31BC78692CC8B616003EEBD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31F5AAE02CCF72720023A836 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				31F5AADE2CCF5FCB0023A836 /* LaunchScreenView.swift */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		31F5AAE12CCF72B10023A836 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				31BC78642CC8B614003EEBD1 /* ContentView.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		818D9DB9AF06BAAE01452376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BF6CC8EB16243C3A6B2415E /* Pods-RecipeDiscoverApp.debug.xcconfig */,
+				CEA2CF64C1618ABB9EB8145A /* Pods-RecipeDiscoverApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A675539111BCE70F41AF6464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32D15CC0FEFCCDFFBC0400EC /* Pods_RecipeDiscoverApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BC785E2CC8B614003EEBD1 /* RecipeDiscoverApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BC786D2CC8B616003EEBD1 /* Build configuration list for PBXNativeTarget "RecipeDiscoverApp" */;
+			buildPhases = (
+				B7FDBAC58AC93969266F593A /* [CP] Check Pods Manifest.lock */,
+				31BC785B2CC8B614003EEBD1 /* Sources */,
+				31BC785C2CC8B614003EEBD1 /* Frameworks */,
+				31BC785D2CC8B614003EEBD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeDiscoverApp;
+			packageProductDependencies = (
+				315E92A62CD23ED8008C7A07 /* Kingfisher */,
+			);
+			productName = RecipeDiscoverApp;
+			productReference = 31BC785F2CC8B614003EEBD1 /* RecipeDiscoverApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BC78572CC8B614003EEBD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					31BC785E2CC8B614003EEBD1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 31BC785A2CC8B614003EEBD1 /* Build configuration list for PBXProject "RecipeDiscoverApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31BC78562CC8B614003EEBD1;
+			packageReferences = (
+				315E92A52CD23ED8008C7A07 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 31BC78602CC8B614003EEBD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BC785E2CC8B614003EEBD1 /* RecipeDiscoverApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BC785D2CC8B614003EEBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F5AAE32CCF754B0023A836 /* Satoshi-Bold.otf in Resources */,
+				31F5AAE22CCF74A90023A836 /* Satoshi-Bold.ttf in Resources */,
+				319389122CCA4CDB0050420B /* Satoshi-Variable.ttf in Resources */,
+				319389112CCA4C9B0050420B /* Satoshi-BoldItalic.ttf in Resources */,
+				3193890F2CCA4C770050420B /* Satoshi-VariableItalic.ttf in Resources */,
+				3193890E2CCA4C5B0050420B /* Satoshi-Regular.ttf in Resources */,
+				3193890D2CCA3A590050420B /* Assets.xcassets in Resources */,
+				3199C47C2CCA2DFC00DD8F53 /* Satoshi-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7FDBAC58AC93969266F593A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeDiscoverApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BC785B2CC8B614003EEBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC78712CC8B667003EEBD1 /* CustomNavBar.swift in Sources */,
+				3199C3EF2CCA120600DD8F53 /* RecipeViewModel.swift in Sources */,
+				3199C3E42CC9F76C00DD8F53 /* RecipeCard.swift in Sources */,
+				31BC78652CC8B614003EEBD1 /* ContentView.swift in Sources */,
+				315D7C892CCB5D6F00FD50E6 /* NetworkManager.swift in Sources */,
+				3199C3E92CCA0FC300DD8F53 /* Recipe.swift in Sources */,
+				3199C3ED2CCA117100DD8F53 /* CategoryViewModel.swift in Sources */,
+				3134DFC72CC91312003E9D99 /* CategoryItem.swift in Sources */,
+				31BC78632CC8B614003EEBD1 /* RecipeDiscoverAppApp.swift in Sources */,
+				3199C3EB2CCA0FD200DD8F53 /* Category.swift in Sources */,
+				319389152CCA50C50050420B /* Font+Custom.swift in Sources */,
+				31F5AADF2CCF5FCB0023A836 /* LaunchScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31BC786B2CC8B616003EEBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31BC786C2CC8B616003EEBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31BC786E2CC8B616003EEBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF6CC8EB16243C3A6B2415E /* Pods-RecipeDiscoverApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeDiscoverApp/Preview Content\"";
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipeDiscoverApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SSLPinningImp.RecipeDiscoverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31BC786F2CC8B616003EEBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA2CF64C1618ABB9EB8145A /* Pods-RecipeDiscoverApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeDiscoverApp/Preview Content\"";
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipeDiscoverApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SSLPinningImp.RecipeDiscoverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BC785A2CC8B614003EEBD1 /* Build configuration list for PBXProject "RecipeDiscoverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BC786B2CC8B616003EEBD1 /* Debug */,
+				31BC786C2CC8B616003EEBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BC786D2CC8B616003EEBD1 /* Build configuration list for PBXNativeTarget "RecipeDiscoverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BC786E2CC8B616003EEBD1 /* Debug */,
+				31BC786F2CC8B616003EEBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		315E92A52CD23ED8008C7A07 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		315E92A62CD23ED8008C7A07 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 315E92A52CD23ED8008C7A07 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 31BC78572CC8B614003EEBD1 /* Project object */;
+}
